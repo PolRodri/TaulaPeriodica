@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingTop="25dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/edtNumero"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="#50587d"
+        android:text="NUMERO"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/edtSimbol"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="SIMBOL"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edtNom"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:text="NOM"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/edtPes"
+        android:layout_width="127dp"
+        android:layout_height="match_parent"
+        android:text="PES"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+
+</LinearLayout>
